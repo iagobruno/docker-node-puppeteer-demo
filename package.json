@@ -1,0 +1,11 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node server.spec.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^10.1.0"
+  }
+}
