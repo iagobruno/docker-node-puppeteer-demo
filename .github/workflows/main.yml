@@ -17,4 +17,4 @@ jobs:
       - run: docker-compose up -d --build
 
       - name: Run tests
-        run: docker exec -i server-container yarn run test
+        run: docker exec -i node-container yarn run test

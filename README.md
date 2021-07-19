@@ -10,5 +10,5 @@
 
 ```bash
 > docker-compose up -d --build
-> docker exec -i server-container yarn run test
+> docker exec -i node-container yarn run test
 ```
