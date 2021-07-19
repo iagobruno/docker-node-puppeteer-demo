@@ -9,6 +9,6 @@
 ## Getting Started
 
 ```bash
-> docker-compose up -d
+> docker-compose up -d --build
 > docker exec -i server-container yarn run test
 ```

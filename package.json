@@ -2,10 +2,12 @@
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
-    "test": "node server.spec.js"
+    "test": "node tests.js"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "japa": "^3.1.1",
+    "node-fetch": "^2.6.1",
     "puppeteer": "^10.1.0"
   }
 }
