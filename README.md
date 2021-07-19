@@ -1,7 +1,7 @@
 ```bash
 docker build -t docker-node-puppeteer .
 
-docker run -d -p 3000:3000 docker-node-puppeteer
+docker run -d -p 3000:3000 --name test-container docker-node-puppeteer
 
-docker exec -it <container_id> node server.spec.js
+docker exec -it test-container node server.spec.js
 ```

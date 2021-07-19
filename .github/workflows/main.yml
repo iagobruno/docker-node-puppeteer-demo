@@ -21,4 +21,4 @@ jobs:
         run: docker run -d -p 3000:3000 --name test-container docker-node-puppeteer
 
       - name: Run tests
-        run: docker exec -it test-container node server.spec.js
+        run: docker exec -i test-container node server.spec.js
