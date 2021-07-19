@@ -1,7 +1,14 @@
+## TODO
+
+- [x] Run server.js inside nodejs container.
+- [x] Install Chromium inside the container.
+- [x] Use puppeteer with installed chromium version.
+- [x] Run `yarn run test` using Github actions with docker-compose.
+- [x] Cache dockerfile layers for faster builds.
+
+## Getting Started
+
 ```bash
-docker build -t docker-node-puppeteer .
-
-docker run -d -p 3000:3000 --name test-container docker-node-puppeteer
-
-docker exec -it test-container node server.spec.js
+> docker-compose up -d
+> docker exec -i server-container yarn run test
 ```
